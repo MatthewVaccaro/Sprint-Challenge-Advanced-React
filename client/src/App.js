@@ -29,6 +29,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <p>Test</p>
         <Toggle />
         {this.state.data
           ? this.state.data.map(cv => {
